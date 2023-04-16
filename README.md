@@ -1,6 +1,6 @@
 # Movie Recommendation System 
 
-This project is a movie recommendation system developed using machine learning algorithms, Python's sci-kit learn, and pandas library. The system uses two types of algorithms, content-based filtering and collaborative-based filtering, to generate movie recommendations for the user based on their past movie preferences.
+This project is a movie recommendation system developed using machine learning algorithms, Python's sci-kit learn, and pandas library. The system uses three types of algorithms, content-based filtering collaborative-based filtering, and demographic filtering to generate movie recommendations for the user based on their past movie preferences.
 
 # Installation
 
@@ -17,7 +17,7 @@ To use the project, follow these steps:
 Open the Jupyter notebook: jupyter notebook.
 Navigate to the movie_recommendation_system.ipynb file.
 Run the cells in the notebook.
-The notebook contains the implementation of two algorithms, content-based filtering and collaborative-based filtering. The content-based filtering algorithm recommends movies to the user based on the similarity of the movie genres and tags to the ones the user has already watched. The collaborative-based filtering algorithm recommends movies to the user based on the similarity of the user's movie preferences to other users' preferences.
+The notebook contains the implementation of three algorithms, content-based filterin, demographic and collaborative-based filtering. The content-based filtering algorithm recommends movies to the user based on the similarity of the movie genres and tags to the ones the user has already watched. The collaborative-based filtering algorithm recommends movies to the user based on the similarity of the user's movie preferences to other users' preferences.
 
 To test the system, the user can provide their past movie ratings in the ratings.csv file, and the system will generate movie recommendations for them based on their preferences.
 
