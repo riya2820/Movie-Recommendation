@@ -7,13 +7,13 @@ This project is a movie recommendation system developed using machine learning a
 This system leverages three distinct recommendation strategies to cater to different user preferences and scenarios:
 
 1. Content-Based Filtering
-Content-based filtering recommends movies by analyzing the content of movies and user preferences. It uses movie metadata, such as genre, director, description, actors, etc., to find a match between the movie's features and the user's preferences. This method assumes if a user liked a particular movie, they will also like movies that are similar in content.
+recommends movies by analyzing the content of movies and user preferences. It uses movie metadata, such as genre, director, description, actors, etc., to find a match between the movie's features and the user's preferences. This method assumes if a user liked a particular movie, they will also like movies that are similar in content.
 
 2. Collaborative-Based Filtering
-Collaborative filtering generates movie recommendations based on past behavior of users in the dataset and not on the content of the movies themselves. Forms a network of such behaviors and suggests movies based on user patterns. 
+generates movie recommendations based on past behavior of users in the dataset and not on the content of the movies themselves. Forms a network of such behaviors and suggests movies based on user patterns. 
 
 3. Demographic Filtering
-Demographic filtering recommends movies based on the demographic characteristics of users, such as age, location, gender, etc. This approach assumes that users with similar demographic features will have similar movie preferences. 
+recommends movies based on the demographic characteristics of users, such as age, location, gender, etc. This approach assumes that users with similar demographic features will have similar movie preferences. 
 
 # Installation
 
